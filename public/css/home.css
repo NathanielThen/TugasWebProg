@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter'!important;
+    font-style: normal;
+    overflow-x: hidden;
+    background-color: #FFF8E8 !important;
+
+    z-index: -1;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px 20px;
+    color: #000000;
+    cursor: pointer;
+    border: none;
+}
+
+.button1{
+    font-size: 25px;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.button2{
+    font-size: 25px;
+    color: hsl(0, 0%, 0%);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.button3{
+    font-size: 25px;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.button4{
+    font-size: 25px;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.button5{
+    font-size: 25px;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.button1:hover{
+    text-decoration:underline;
+    color: rgb(0, 81, 255);
+}
+.button2:hover{
+    text-decoration:underline;
+    color: rgb(0, 81, 255);
+
+}
+.button3:hover{
+    text-decoration:underline;
+    color: rgb(0, 81, 255);
+
+}
+.button4:hover{
+    text-decoration:underline;
+    color: rgb(0, 81, 255);
+
+}
+.button5:hover{
+    text-decoration:underline;
+    color: rgb(0, 81, 255);
+}
+
+
+
+.signUp{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard{
+    background-color: #ffffff       ;
+}
+
+.sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#E8B86D            ;
+    color: #ffffff;
+    font-size: 25px;
+    border-radius: 1rem;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: none;
+}
+
+.sub:hover{
+    background-color: #ffffff;
+    color: #A1D6B2;
+}
+
+.bg-image {
+    background-image: url('https://design4users.com/wp-content/uploads/2023/03/food-illustration-helen-lee.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+}       
+
+hr{
+    border-top: 10px sol;
+}
